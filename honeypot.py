@@ -37,7 +37,7 @@ def signal_handler(signal,frame):
     loop=0
     global connection
     connection.close()
-    print ("\nStopping pinger. Thanks for using.")
+    print ("\nStopping. Thanks for using.")
     print ("Please visit https://github.com/timgold81/")
     print ("contact timgold@gmail.com\n")
 
