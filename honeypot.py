@@ -75,7 +75,7 @@ if args.username:
     config.username=args.username+"\n"
 
 if args.password:
-    config.password=args.password++"\n"
+    config.password=args.password+"\n"
 
 if args.output:
     config.output=args.Output
