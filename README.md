@@ -1,4 +1,8 @@
 # Telnet honeypot
+This is a simple honey pod to monitor and log incoming cli telnet connection
+attempts. <br />
+The honey pod opens a port and waits for incoming connections. For every connection, the program sends welcome message, and asks for user name and password. Whatever the connected side sends, the program saves in file.
+
 <pre>
 
 usage: honeypot.py [-h] [-p PORT] [-f FILENAME] [-u USERNAME] [-w PASSWORD]
@@ -72,4 +76,4 @@ following:
 2018-04-03 13:03:46.028584, Username recieved: admin
 2018-04-03 13:03:46.551995, Password recieved: 1111111
 </pre>
-These are only few lines from the output file out of many
+These are only few lines from the output file out of many, that shows some IPs that are trying to connect and to use common passwords to log in.
