@@ -35,7 +35,7 @@ optional arguments:
 </pre>
 
 ## Usage
-To use forward connection from router to the port using this program.
+Forward connection from router to the port using this program.
 
 ## Example
 I started the program on port 999 using :
